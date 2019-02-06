@@ -1,14 +1,14 @@
 ![CF](http://i.imgur.com/7v5ASc8.png) LAB
 =================================================
 
-## Project Name
-Lab 0 [![Build Status](https://travis-ci.com/vladimirsan/401n12-lab0.svg?branch=master)](https://travis-ci.com/vladimirsan/401n12-lab0)
+## Node Ecosystem
+Lab 0 [![Build Status](https://www.travis-ci.com/etrainor/401-javascript-lab01.svg?branch=master)
 
-### Author: Student/Group Name
+### Author: Erin Trainor
 
 ### Links and Resources
-* [repo](https://github.com/vladimirsan/401n12-lab0)
-* [travis](https://travis-ci.com/vladimirsan/401n12-lab0)
+* [repo](https://github.com/etrainor/401-javascript-lab01)
+* [travis](https://www.travis-ci.com/etrainor/401-javascript-lab01)
 * [front-end](https://lab0-401n12.herokuapp.com/) (when applicable)
 
 

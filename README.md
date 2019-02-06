@@ -2,14 +2,14 @@
 =================================================
 
 ## Node Ecosystem
-Lab 0 [![Build Status](https://www.travis-ci.com/etrainor/401-javascript-lab01.svg?branch=master)
+Lab 1 [![Build Status](https://www.travis-ci.com/etrainor/401-javascript-lab01.svg?branch=master)](https://www.travis-ci.com/etrainor/401-javascript-lab01)
 
 ### Author: Erin Trainor
 
 ### Links and Resources
 * [repo](https://github.com/etrainor/401-javascript-lab01)
 * [travis](https://www.travis-ci.com/etrainor/401-javascript-lab01)
-* [front-end](https://lab0-401n12.herokuapp.com/) (when applicable)
+* [front-end](https://lab01-javascript-401.herokuapp.com/) (when applicable)
 
 
 ### Modules
@@ -34,4 +34,4 @@ Usage Notes or examples
  - Nothing is pending right now.
 
 #### UML
-PICTURE :)
+PICTURE :) - See demo video at 44:22

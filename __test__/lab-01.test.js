@@ -8,11 +8,11 @@
 // Have I met the lab requirements?
 
 // DEPENDENCIES
-const greet = require('./greet');
+const greet = require('../greet');
 const faker = require('faker');
-const arithmetic = require('./arithmetic');
+const arithmetic = require('../arithmetic');
 
-describe('#lab-01-test.js', () => {
+describe('#lab-01.test.js', () => {
     
     // GREET MODULE
     test('Should return null if value is not a string', () => {

@@ -2,7 +2,7 @@
 =================================================
 
 ## Node Ecosystem
-Lab 1 [![Build Status](https://www.travis-ci.com/etrainor/401-javascript-lab01.svg?branch=master)](https://www.travis-ci.com/etrainor/401-javascript-lab01)
+[![Build Status](https://www.travis-ci.com/etrainor/401-javascript-lab01.svg?branch=master)](https://www.travis-ci.com/etrainor/401-javascript-lab01)
 
 ### Author: Erin Trainor
 

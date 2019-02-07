@@ -1,9 +1,5 @@
 'use strict';
 
-// QUESTIONS TO ASK
-// Why is describe and various other jest things angry - starting line 10
-// Test on line 43, will that work as I think? If not how to fix.
-// Have I met the lab requirements?
 
 // DEPENDENCIES
 const greet = require('../lib/greet');
@@ -18,8 +14,38 @@ let noZero = () => {
     } else return randomNum;
 };
 
-// ARRAY
-let array = [faker.random.number(), noZero()];
+// FUNCTION TO PASS IN OPERATORS AND LOOP THROUGH ARRAY - THIS IS ESSENTIALLY AN IF/ELSE STATEMENT THAT GETS AN ARRAY AND A MATH OPERATOR
+let math = (array, operator) => {
+    switch (operator) {
+        case '+':
+            let newSum = 0;
+            for(let i in array){
+                newSum += array[i];
+            };
+            return newSum;
+        case '-':
+            let newDifference = array[0];
+            for(let i = 1 ; i < array.length ; i++){
+                newDifference -= array[i];
+            }
+            return newDifference;
+        case '*':
+            let newProduct = array[0];
+            for (let i = 1 ; i < array.length ; i++){
+                newProduct *= array[i];
+            }
+            return newProduct;
+        case '/':
+            let newQuotient = array[0];
+            for(let i = 1 ; i < array.length ; i++){
+                newQuotient /= array[i];
+            }
+            return newQuotient;
+        default:
+            return null;
+
+    }
+}
 
 // TESTS
 describe('#lab-01.test.js', () => {
@@ -37,22 +63,31 @@ describe('#lab-01.test.js', () => {
     // ARITHMETIC MODULE
     // MODIFIED FROM H'LIANA'S CODE
     test('Test should add numbers from an array', () => {
+        let array = [faker.random.number(), faker.random.number(), noZero()];
+        let result = math(array, '+');
         const sum = arithmetic.add(array);
-        expect(sum).toEqual(array[0] + array[1]);
+        expect(sum).toEqual(result);
     });
     test('Test should subtract numbers from an array', () => {
+        let array = [faker.random.number(), faker.random.number(), noZero()];
+        let result = math(array, '-');
         const difference = arithmetic.subtract(array);
-        expect(difference).toEqual(array[0] - array[1]);
+        expect(difference).toEqual(result);
     });
     test('Test should multiply numbers from an array', () => {
+        let array = [faker.random.number(), faker.random.number(), noZero()];
+        let result = math(array, '*');
         const product = arithmetic.multiply(array);
-        expect(product).toEqual(array[0] * array[1]);
+        expect(product).toEqual(result);
     });
     test('Test should divide numbers from an array', () => {
+        let array = [faker.random.number(), noZero(), noZero(), noZero(), noZero(), noZero()];
+        let result = math(array, '/');
         const quotient = arithmetic.divide(array);
-        expect(quotient).toEqual(array[0]/array[1]);
+        expect(quotient).toEqual(result);
     });
     test('The array should contain only integers', () => {
+        let array = [faker.random.number(), noZero(), noZero(), noZero(), noZero(), noZero()];
         let newArray = [];
         for(let i in array) {
             newArray.push(typeof array[i]);

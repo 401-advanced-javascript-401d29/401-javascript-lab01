@@ -13,8 +13,8 @@ Lab 1 [![Build Status](https://www.travis-ci.com/etrainor/401-javascript-lab01.s
 
 
 ### Modules
-#### `pol.js`
-##### Exported Values and Methods
+#### `greet.js`
+#### `arithmetic.js`
 
 ###### `isAlive(dead) -> boolean`
 Usage Notes or examples

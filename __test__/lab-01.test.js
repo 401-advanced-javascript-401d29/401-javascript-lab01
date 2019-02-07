@@ -12,6 +12,18 @@ const greet = require('../greet');
 const faker = require('faker');
 const arithmetic = require('../arithmetic');
 
+// PREVENT DIVISION BY ZERO
+let noZero = () => {
+    let randomNum = faker.random.number();
+    if(randomNum === 0) {
+        return randomNum + 1;
+    } else return randomNum;
+};
+
+// ARRAY
+let array = [faker.random.number(), noZero()];
+
+// TESTS
 describe('#lab-01.test.js', () => {
     
     // GREET MODULE

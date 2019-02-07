@@ -17,7 +17,7 @@ let noZero = () => {
 let array = [faker.random.number(), noZero()];
 
 //CONSOLE LOGS
-console.log(greet.message('amazing TA\'s!'));
+console.log(greet.message('world'));
 console.log('The sum of the array equals: ' + arithmetic.add(array));
 console.log('The difference of the array equals: ' + arithmetic.subtract(array));
 console.log('The product of the array equals: ' + arithmetic.multiply(array));

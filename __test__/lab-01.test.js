@@ -29,9 +29,9 @@ describe('#lab-01.test.js', () => {
         const greetMessage = greet.message(faker.random.number());
         expect(greetMessage).toBeNull();
     });
-    test('Should return Hello amazing TA\'s!', () => {
-        const greetMessage = greet.message('amazing TA\'s!');
-        expect(greetMessage).toEqual('Hello amazing TA\'s!');
+    test('Should return hello world!', () => {
+        const greetMessage = greet.message('world');
+        expect(greetMessage).toEqual('hello world!');
     });
     
     // ARITHMETIC MODULE
@@ -56,7 +56,6 @@ describe('#lab-01.test.js', () => {
         let newArray = [];
         for(let i in array) {
             newArray.push(typeof array[i]);
-            console.log(newArray);
         }
         expect(newArray).toContain('number');
         expect(newArray).not.toContain('string');

@@ -1,9 +1,9 @@
 'use strict';
 
 //DEPENDENCIES
-const greet = require('./greet');
+const greet = require('./lib/greet');
 const faker = require('faker');
-const arithmetic = require('./arithmetic');
+const arithmetic = require('./lib/arithmetic');
 
 //PREVENT DIVISION BY ZERO
 let noZero = () => {

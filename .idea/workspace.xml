@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fa52c993-dd31-4810-b53d-846cad1747ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/__test__/lab-01.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/__test__/lab-01.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/arithmetic.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/arithmetic.js" afterDir="false" />
-    </list>
+    <list default="true" id="fa52c993-dd31-4810-b53d-846cad1747ce" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -29,7 +24,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JavaScript" value="1172" />
+          <entry key="JavaScript" value="1332" />
           <entry key="Markdown" value="6" />
           <entry key="PLAIN_TEXT" value="22" />
         </counts>
@@ -104,8 +99,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/__test__/lab-01.test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="814">
-              <caret line="75" column="51" lean-forward="true" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+            <state relative-caret-position="708">
+              <caret line="89" column="94" selection-start-line="89" selection-start-column="94" selection-end-line="89" selection-end-column="94" />
             </state>
           </provider>
         </entry>
@@ -262,7 +257,7 @@
       <workItem from="1549427159310" duration="2534000" />
       <workItem from="1549504490485" duration="3428000" />
       <workItem from="1549509810902" duration="224000" />
-      <workItem from="1549510049364" duration="6229000" />
+      <workItem from="1549510049364" duration="6503000" />
     </task>
     <servers />
   </component>
@@ -272,7 +267,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27798000" />
+    <option name="totallyTimeSpent" value="28072000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -403,8 +398,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/__test__/lab-01.test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="75" column="51" lean-forward="true" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+        <state relative-caret-position="708">
+          <caret line="89" column="94" selection-start-line="89" selection-start-column="94" selection-end-line="89" selection-end-column="94" />
         </state>
       </provider>
     </entry>
